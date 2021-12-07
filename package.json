@@ -1,0 +1,24 @@
+{
+  "name": "mongodb-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Lisandra-blip/momgo-1)"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.15",
+    "request": "^2.88.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
