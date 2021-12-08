@@ -17,3 +17,17 @@ No caso de um fórum de posts por exemplo um post pode ser compartilhado comenta
 Uma solução para o problema é o uso de bancos de dados NoSQl que podem adicionar dados mais facilmente, sem reestruturar todas as tabelas. Estas bases de dados não são presas a uma rede de tabelas interligadas por chaves, 
 É por meio dessa independência entre os dados e programas que estes se tornam mais flexíveis rápidos com o mongoDB sendo um dos mais conhecidos bancos NoSQl do mercado. Com esta aplicação os dados do banco podem 
 
+ROTAS	                                         HTTP
+/mercado/mercadorias	                         GET	Selecionar Todos
+/mercado/mercadorias	                         POST	Criar 
+/mercado/mercadorias	/:mercadorias_id	        GET	Selecionar 
+/mercado/mercadorias	/:mercadorias_id		       PUT	Atualizar 
+/mercado/mercadorias	/:mercadorias_id		       DELETE	Excluir 
+
+ROTAS	                                         HTTP
+/mercado/funcionarios	                        GET	Selecionar Todos
+/mercado/funcionarios		                       POST	Criar 
+/mercado/funcionarios/:funcionarios_id	       GET	Selecionar 
+/mercado/funcionarios/:funcionarios_id		      PUT	Atualizar 
+/mercado/funcionarios/:funcionarios_id		      DELETE	Excluir 
+
